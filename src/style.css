@@ -1,0 +1,110 @@
+header {
+  position: fixed;
+  top: 20px;
+  max-height: 75px;
+  width: 100%;
+  padding: 0px 0px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: #eee;
+  }
+
+  .nav-list {
+        display: flex;
+        margin-right: 2rem;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #8e9091;
+        font-weight: 500;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+  body {
+      background-image: url(https://previews.dropbox.com/p/thumb/AAlouAUw3-30yBA7LBSR2n-CNLl-bptCIYGU_bKuapXKQk0xlzWrp8CiGXscfTYA40zT2U7XBvRbTTpsSxxYM9cWcWW2KYEmGzqU1oG2c08zN-eGJA4uF-i3GoUqS9d8j2WKKGjbjy3DEzV0p0wxJWetSXy5zV3AslCy9glRGWLhMiMLMht70DoZTbxkVd8kUnm2OIGu6_-IsrjBaXEwrvbgWOR-HCx5ItnOe65dKzW8pCOH_7v7cJgOpxslr_ZjHB1b8w4sZ9v6qHwcAm6cQ86cqX_aZ5BTIl7bW_KkxYS-4B3m1G6odwYpYoj1BResyVJj03qVn4Di8i9UWpSizASp/p.png?fv_content=true&size_mode=5);
+      background-size: contain;
+      background-color: #8e9091;
+  }
+
+  h2 {
+      color: #0f0f0f;
+  }
+
+  .container {
+      padding: 100px;
+  }
+
+    #banner {
+        /*background-color: grey;*/
+        width: 700px;
+        text-align: center;
+    }
+
+    #header-img {
+        padding: 40px 0px 0px 0px;
+      width: 200px;
+  }
+
+    .video {
+        text-align: center;
+        padding: 0px 70px 0px 60px;
+    }
+
+    #features {
+      margin-top: 120px;
+      color: #141414;
+      text-align: center;
+  }
+
+  #features-title {
+      text-align: center;
+      padding: 0px 70px 0px 60px;
+  }
+
+    #featsBreakDown {
+      margin-top: 25px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      
+  }
+
+
+  .grid {
+      margin: auto;
+      padding: 0px 35%;
+      text-align: center;
+  }
+
+  #donate {
+      text-align: center;
+      color: #141414;
+      padding: 50px 0px 0px;
+  }
+
+  #newsletter {
+      margin: auto;
+      color: #141414;
+      text-align: center;
+      padding: 50px 0px 0px;
+  }
+
+  @media (max-width: 720px) {
+      #features {
+        font-size: 10px;
+      }
+      #donate {
+        font-size: 10px;
+      }
+      #newsletter {
+        font-size: 10px;
+      }
+  }
